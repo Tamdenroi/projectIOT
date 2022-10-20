@@ -1,0 +1,84 @@
+body{
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    background-color: red;
+    border-radius: 50px;
+    height: 100px;
+    margin-bottom: 5px;
+    }
+    #header p{
+        color: darkblue;
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 40px;
+        }
+#footer{
+    clear: both;
+    text-align: center;
+    margin-top: 25px;
+    background-color: lightgrey;
+    border-radius: 6px;
+    }
+    #footer p{
+        font-size: 25pt;
+        font-style: italic;
+        color: blue;
+        padding: 3px;
+    }
+#left{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#left select #drop1{
+    width: 200px; 
+    height: 20px;
+    margin-top: 20px;
+    text-align: center;
+    text-size-adjust: 50px;
+}
+
+#left #myTable {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 30px;
+  }
+
+#left #myTable td, #myTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+#left #myTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#left #myTable tr:hover {background-color: #ddd;}
+
+#left #myTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+  }
+#right{
+    float: right;
+    width: 50%;
+}
+
+#right #img{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 350px;
+    margin-bottom: 10px;
+}

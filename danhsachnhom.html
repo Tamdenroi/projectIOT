@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Sách Thành Viên</title>
+    <link rel="stylesheet" href="format.css">
+</head>
+<body onload="count_variable()" background="img/background.jpg">
+    <div id="header">
+        <p>DANH SÁCH THÀNH VIÊN NHÓM </p>
+    </div>
+    <div id="left">
+        <select id="drop1" onclick="get_selection()" style="width: 400px; margin-top: 20px;height: 60px;text-align: center; font-size: 30px; font-style: bold; font-family: 'Times New Roman', Times, serif;">
+            <option>Vũ Thành Tâm</option>
+            <option>Bùi Văn Phụng</option>
+            <option>Bùi Quốc Toàn</option>
+            <option>Nguyễn Bất Nhược</option>
+        </select>
+        <h1>Thông tin</h1>
+        <table id="myTable" cellspacing="0">
+            <tr>
+                <td>Họ và tên</td>
+                <td>Vũ Thành Tâm</td>
+            </tr>
+            <tr>
+                <td>MSSV</td>
+                <td>B1905979</td>
+            </tr>
+            <tr>
+                <td>Ngành</td>
+                <td>Quản Lý Công Nghiệp</td>
+            </tr>
+        </table>
+        <br>
+    </div>
+    <div id="right">
+        <img id="img" src="tâm.jpg" alt="">
+    </div>
+    <div id="footer">
+        <p id="c1">Số lần truy cập: 0</p>
+    </div>
+    <script src="function.js"></script>
+</body>
+</html>
